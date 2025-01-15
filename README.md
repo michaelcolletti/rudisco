@@ -29,5 +29,17 @@ To get started with Rudisco, clone the repository and run the following commands
 ```sh
 git clone https://github.com/yourusername/rudisco.git
 cd rudisco
-cargo run
+rustc discover.rs
 ```
+
+- Run the executable ```./discovery```
+- View the RUDISCO.md output `cat RUDISCO.md`
+ 
+- It is also possible to use Cargo
+
+```sh
+git clone https://github.com/yourusername/rudisco.git
+cd rudisco
+cargo build;cargo run
+```
+
